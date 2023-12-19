@@ -1,0 +1,180 @@
+body {
+    background-size: cover;
+}
+.imgRedonda {
+  width:250px;
+  height:250px;
+  border-radius:50px;
+  position: relative;
+  left: 25px;
+  top: 25px;
+}
+.wattslogo{
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 46px;
+}
+.watts_logo :hover{
+  
+}
+
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+  
+  .fab:hover {
+  opacity: 0.7;
+  }
+  
+  .fa-whatsapp {
+  background: #45bbff;
+  color: white;
+  }
+.regresar {
+  color: #ffffff;
+  position: relative;
+  left: 1100px;
+  bottom: 100px;
+}
+
+button:hover {
+  color: rgb(0, 140, 255);
+}
+
+
+.btn.btn-raised.btn-primary {
+    
+    font-size: 16px;
+    width: 50%;
+    padding: 50px;
+}
+.error {
+    background-color: #FBE9E7;
+    border: 1px solid #F4511E;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #F4511E;
+}
+.correcto {
+    background-color: rgb(211, 249, 187);
+    border: 1px solid rgb(3, 0, 167);
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(76, 0, 255);
+}
+.error p {
+    margin:0;
+}
+#contenido {
+    margin-top: 5px;
+    background-color: white;
+    -webkit-box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
+    box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
+    position: relative;
+    bottom: 100px;
+}
+.contenido-formulario {
+    margin-top: 30px;
+}
+#cargando {
+    text-align: center;
+}
+#cargando img {
+    display: none;
+    margin: 0 auto;
+}
+#resultado  {
+    margin-bottom: 40px;
+}
+#resultado div {
+    border: 1px solid #0400ff;
+    text-align: center;
+    padding: 0  0 20px 0;
+}
+#resultado div p {
+    margin-bottom: 0;
+}
+#resultado div p.header {
+    background-color: #0400ff;
+    margin-bottom: 10px;
+    color:white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.spinner {
+    margin: 100px auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .spinner > div {
+    background-color: #0400ff;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  }
+  
+  .spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+  }
+  
+  .spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  .spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+  }
+  
+  .spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+  }
+  
+  @-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    20% { -webkit-transform: scaleY(1.0) }
+  }
+  
+  @keyframes sk-stretchdelay {
+    0%, 40%, 100% { 
+      transform: scaleY(0.4);
+      -webkit-transform: scaleY(0.4);
+    }  20% { 
+      transform: scaleY(1.0);
+      -webkit-transform: scaleY(1.0);
+    }
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
