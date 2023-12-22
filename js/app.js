@@ -25,6 +25,15 @@ Seguro.prototype.cotizarSeguro =  function(){
     case '4':
             cantidad = base * 2.5;
             break;
+    case '5':
+                cantidad = base * 2.9;
+                break;
+    case '6':
+                cantidad = base * 3.6;
+                break;
+    case '7':
+                cantidad = base * 4.5;
+                break;
     default:
         break;
    }
@@ -38,9 +47,9 @@ Seguro.prototype.cotizarSeguro =  function(){
     Si el seguro es completo se multiplica por un 50% mas.
     */
    if(this.tipo === 'basico'){
-       cantidad += 2500;
+       cantidad += 1500;
    }else{
-        cantidad += 3000;
+        cantidad += 2500;
    }
 
    return cantidad;
